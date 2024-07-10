@@ -43,9 +43,9 @@ Access keys Create : AWS Access Key ID && AWS Secret Access Key
 
 You must download the aws-nuke (.exe) above. The tasks below are performed locally on Windows.
 
-aws-nuke-v2.19.0-windows-amd64 -> aws-nuke ...  
+aws-nuke-v2.19.0-windows-amd64 -> aws-nuke . . .  
   
-mv aws-nuke C:\Windows\System32 ...
+mv aws-nuke C:\Windows\System32 . . .
 
 windows + x + i
 
