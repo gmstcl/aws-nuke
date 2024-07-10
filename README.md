@@ -23,7 +23,7 @@ AWS Nuke searches for resources that can be deleted from your AWS account, which
 
 --- 
 
-## IAM alias
+## Amazon Web Service IAM alias
 
 AWS iam Page :
    ```sh
@@ -33,7 +33,7 @@ It is located in the Dashboard Account ID section.
 Create alias .. ex ) hrdkorea  
 IAM aliases are used to create IAM aliases because AWS-NUKE works.
 
-## Amazon Web Service 
+## Amazon Web Service ecurity_credentials
    ```sh
    https://us-east-1.console.aws.amazon.com/iam/home#/security_credentials
    ```
