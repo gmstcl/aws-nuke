@@ -35,7 +35,7 @@ IAM aliases are used to create IAM aliases because AWS-NUKE works.
 
 ## Amazon Web Service 
    ```sh
-   https://us-east-1.console.aws.amazon.com/iam](https://us-east-1.console.aws.amazon.com/iam/home#/security_credentials
+   https://us-east-1.console.aws.amazon.com/iam/home#/security_credentials
    ```
 Access keys Create : AWS Access Key ID && AWS Secret Access Key 
 
