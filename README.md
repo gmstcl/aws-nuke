@@ -64,6 +64,7 @@ aws configure
   Default region name [None] : ap-northeast-2
   Default output format [None] : json
   ```
+aws-nuke File | config.yml
 
   ```sh
   notepad config.yml
