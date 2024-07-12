@@ -39,15 +39,23 @@ IAM aliases are used to create IAM aliases because AWS-NUKE works.
    ```
 Access keys Create : AWS Access Key ID && AWS Secret Access Key 
 
-## Powershell  
+## PowerShell
 
 You must download the aws-nuke (.exe) above. The tasks below are performed locally on Windows.
 
-aws-nuke-v2.19.0-windows-amd64 -> aws-nuke . . .  
+C:\Users\admin\Downloads\aws-nuke-v2.19.0-windows-amd64 -> C:\Users\admin\Downloads\aws-nuke 
   
-mv aws-nuke C:\Windows\System32 . . .
+mv C:\Users\admin\Downloads\aws-nuke C:\Windows\System32\aws-nuke 
 
-windows + x + i
+windows + x + i  //open PowerShell
+
+aws cli install 
+  
+  ```sh
+  msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+  ```
+
+aws configure
 
   ```sh
   aws configure --profile aws-nuke
@@ -55,9 +63,13 @@ windows + x + i
   AWS Secret Access Key [None] : <aws nuke Secret Access key>
   Default region name [None] : ap-northeast-2
   Default output format [None] : json
+  ```
 
+  ```sh
   notepad config.yml
+  ```
 
+  ```sh
   regions:
   - us-east-1
   - us-east-2
