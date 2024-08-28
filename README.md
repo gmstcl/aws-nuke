@@ -41,6 +41,7 @@ Access keys Create : AWS Access Key ID && AWS Secret Access Key
 
 ## PowerShell
 
+```sh
 You must download the aws-nuke (.exe) above. The tasks below are performed locally on Windows.
 
 C:\Users\admin\Downloads\aws-nuke-v2.19.0-windows-amd64 -> C:\Users\admin\Downloads\aws-nuke 
@@ -48,7 +49,7 @@ C:\Users\admin\Downloads\aws-nuke-v2.19.0-windows-amd64 -> C:\Users\admin\Downlo
 mv C:\Users\admin\Downloads\aws-nuke C:\Windows\System32\aws-nuke 
 
 windows + x + i  //open PowerShell
-
+```
 aws cli install 
   
   ```sh
